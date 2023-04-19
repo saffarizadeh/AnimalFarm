@@ -1,0 +1,19 @@
+public class Shark : IAnimal
+    {
+        public string Name { get; set; }
+
+        public string MakeNoise()
+        {
+            return "no vocal cords, sorry bout it.";
+        }
+
+        public string Walk()
+        {
+            return "Can't walk, I swim.";
+        }
+
+        public string Eat()
+        {
+            return "fish are friends, not food";
+        }
+    }
