@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MyApp
+{
+   
+    public class Zebra : IAnimal
+    {
+       
+        public string Name { get; set; }
+
+        public string MakeNoise()
+        {
+            return "Nayyyyyyyyyy";
+        }
+
+        public string Walk()
+        {
+            return "Gallup";
+        }
+
+        public string Hair()
+        {
+            return "Black with white stripes";
+        }
+
+        public string Wheredotheylive()
+        {
+            return "In locations with safari's as well as most Zoo's";
+        }
+
+
+
+    }
+}
